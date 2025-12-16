@@ -53,7 +53,7 @@ debris_analysis_output/space_debris_data.csv
 
 ### Expected CSV Format
 
-Your CSV file should contain these columns:
+The CSV file should contain these columns:
 - `OBJECT_TYPE` - Type of object (PAYLOAD, ROCKET BODY, DEBRIS)
 - `SEMIMAJOR_AXIS` - Semi-major axis in km
 - `APOAPSIS` - Apoapsis altitude in km
@@ -125,22 +125,12 @@ Ensure you're using Python 3.8 or higher:
 python --version
 ```
 
-## For Research Papers
-
-The output is formatted for academic publication with:
-- Serif fonts (Times New Roman style)
-- 300 DPI resolution
-- Clean, professional styling
-- Proper axis labels and legends
-
-You can directly include the generated PNG in your LaTeX or Word documents.
 
 ## Data Sources
 
 This tool works with satellite catalog data in CCSDS OMM format, typically from:
 - Space-Track.org
-- NASA Orbital Debris Program Office
-- ESA Space Debris Office
+
 
 ## License
 
